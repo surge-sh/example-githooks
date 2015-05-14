@@ -1,4 +1,4 @@
-# Using git hooks and [Surge](https://surge.sh)
+# [Surge](https://surge.sh) git hooks example
 
 An example of using git hooks with npm run scripts and Surge.
 
