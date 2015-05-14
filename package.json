@@ -16,13 +16,14 @@
     "git-scripts": "^0.2.1",
     "surge": "^0.12.0"
   },
+  "git": {
+    "scripts": {
+      "post-commit": "npm run deploy",
+      "pre-push": "npm run deploy"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "surge ./"
-  },
-  "git": {
-    "scripts": {
-      "pre-push": "npm run deploy"
-    }
   }
 }
