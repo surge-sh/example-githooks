@@ -1,5 +1,5 @@
 {
-  "name": "example-git-hooks",
+  "name": "surge-githooks-example",
   "version": "0.1.0",
   "description": "An example of using git hooks with npm run scripts and Surge.",
   "homepage": "https://surge.sh",
@@ -23,7 +23,6 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "surge ./"
   }
 }
