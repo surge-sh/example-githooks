@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
   "name": "@surge/example-githooks",
+  "version": "0.2.0",
   "description": "An example of using git hooks with npm run scripts to publish to Surge.",
   "homepage": "https://surge.sh",
   "repository": "https://github.com/surge-sh/example-githooks.git",
