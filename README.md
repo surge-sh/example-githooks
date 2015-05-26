@@ -1,6 +1,6 @@
-# [Surge](https://surge.sh) git hooks example
+# Git Hooks example
 
-An example of using git hooks with npm run scripts and Surge.
+An example of using git hooks with [npm run scripts](https://docs.npmjs.com/cli/run-script) and [Surge](https://surge.sh).
 
 ## Getting started
 
