@@ -28,6 +28,8 @@ Next, in your `package.json`, add the git hook you’d like to run your npm task
 
 Now, anyone can `npm run deploy` to use Surge, and they will also deploy `post-commit` and `pre-push` (note the later requires git 1.8.x and up).
 
+In practice, you probably won’t want to publish `post-commit`, but `pre-push` is very useful. The full list of hooks is [available here](https://github.com/nkzawa/git-scripts#description).
+
 ## License
 
 [The MIT License (MIT)](LICENSE.md)
