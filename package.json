@@ -1,20 +1,20 @@
 {
   "name": "surge-githooks-example",
   "version": "0.1.0",
-  "description": "An example of using git hooks with npm run scripts and Surge.",
+  "description": "An example of using git hooks with npm run scripts to publish to Surge.",
   "homepage": "https://surge.sh",
-  "main": "index.html",
-  "repository": "https://github.com/kennethormandy/surge-githooks-example.git",
-  "keywords": [
-    "surge",
-    "example",
-    "surge.sh"
-  ],
-  "author": "Kenneth Ormandy <kenneth@chloi.io> (http://kennethormandy.com)",
+  "repository": "https://github.com/surge-sh/example-githooks.git",
   "license": "MIT",
+  "private": true,
+  "author": "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+  "contributors": [
+    "Kenneth Ormandy <kenneth@surge.sh> (http://kennethormandy.com)",
+    "Brock Whitten   <brock@surge.sh>   (http://sintaxi.com)"
+  ],
+  "keywords": ["surge", "surge.sh", "example", "git hooks"],
   "devDependencies": {
     "git-scripts": "^0.2.1",
-    "surge": "^0.12.0"
+    "surge": "latest"
   },
   "git": {
     "scripts": {
